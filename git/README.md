@@ -47,7 +47,7 @@ Es erscheint so etwas:
 
 
 ### Daten nach Github
-Commit schreibt nur das lokal Repository. Auf github ist bisher noch nichts passiert. Das machen wir nun.
+Commit schreibt nur das lokal Repository. Auf Github ist bisher noch nichts passiert. Das machen wir nun.
 
     $ git push -u origin
     
@@ -65,5 +65,16 @@ Es erscheit so etwas
        3594b25..a8e0fde  main -> main
     Branch 'main' folgt nun Remote-Branch 'main' von 'origin'.
 
+
+### Daten von Github
+
+Jetzt könnte es natürlich auch sein, dass andere Mitstreiter auch etwas  comittet haben. Das müssen wir in unserem lokalen Repository updaten.
+
+    $ git pull
+    
+Es erscheint so etwas
+ 
+    Bereits aktuell.
+    Aktueller Branch main ist auf dem neuesten Stand.
 
 
