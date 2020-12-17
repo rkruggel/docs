@@ -34,6 +34,7 @@ oder
 
 Der zweite Befehl fasst die beiden Ersten zu einem zusammen.
 
+Zu beachten ist, dass neue Dateien immer entweder mit `git add <dateiname>` oder `git add --all` hinzugefügt werden müssen.
 
 Es erscheint so etwas:
 
