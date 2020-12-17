@@ -1,2 +1,5 @@
-# docs
-Dokus für verschiedene Dinge
+# rkruggel/docs
+Alles mögliche aus der Programmierung
+
+## wie es war
+
