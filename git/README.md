@@ -13,7 +13,7 @@ Es gibt mehrere Möglichkeiten. Ich nehme immer diese.
 ### Ein Repository clonen
 Ein Repository von Github clonen. Das Verzeichniss `docs` wird im aktuellen Verzeichnis erstellt.
 
-    git clone https://github.com/rkruggel/docs.git
+    $ git clone https://github.com/rkruggel/docs.git
 
 In der Konsole kann ich jetzt in das Verzeichnis wechseln und sehe dort das Verzeichnis `.git`. Das zeigt an, dass `docs` nun unter Versionskontrolle steht.
 
@@ -25,12 +25,12 @@ Wenn Änderungen gemacht wurden muss commitet werden. Das lokale Repository muss
 
 Hier gibt es zwei Möglichkeiten
 
-    git add --all
-    git commit -m "First commit"
+    $ git add --all
+    $ git commit -m "First commit"
     
 oder
 
-    git commit -a -m "First commit"
+    $ git commit -a -m "First commit"
 
 Der zweite Befehl fasst die beiden Ersten zu einem zusammen.
 
@@ -46,10 +46,10 @@ Es erscheint so etwas:
      create mode 100644 php/README.md
 
 
-### git push
-schreibt alle commits in das Repository.
+### Daten nach Github
+Commit schreibt nur das lokal Repository. Auf github ist bisher noch nichts passiert. Das machen wir nun.
 
-    ~/Develop/docs$ git push -u origin
+    $ git push -u origin
     
 Es erscheit so etwas
 
@@ -64,7 +64,6 @@ Es erscheit so etwas
     To https://github.com/rkruggel/docs.git
        3594b25..a8e0fde  main -> main
     Branch 'main' folgt nun Remote-Branch 'main' von 'origin'.
-    roland@roland-desktop:~/Develop/docs$ 
 
 
 
