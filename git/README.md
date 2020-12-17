@@ -85,4 +85,4 @@ in Planung
 in Planung
 
 ### Kein Passwort
-Um nich immer bei jedem  `push` ein Passwort eingeben zu müssen. kann ein ssh-Schlüssel im Github hinterlegt werden. [hier](ssh_in_github)
+Um nich immer bei jedem  `push` ein Passwort eingeben zu müssen. kann ein ssh-Schlüssel im Github hinterlegt werden. [hier](/git/SshInGithub.md#ssh-in-github)
