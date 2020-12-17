@@ -1,6 +1,8 @@
 # Git
 Alles zum Git und Github. Es wird von der Konsole / Linux aufgerufen.
 
+
+
 ### git clone
 
 Ein Repository von Github clonen. Das Verzeichniss `docs` wird im aktuellen Verzeichnis erstellt
