@@ -14,3 +14,6 @@ Also aufschreiben und nach Möglichkeit auch noch vernünftig verwalten. Github 
 ## mitmachen
 Wer dem Projekt folgen möchte, wer etwas dazu beitragen möchte oder Fehler korregieren will, möge das gerne tun. Ich werde mich bemühen alle pullrequests schnell zu verarbeiten.
 
+## ab und zu mal schummeln :)
+Es gibt hin und wieder mal sehr gute Beschreibungen von dem Problem das gerade anliegt. Dann kommt der Link hinzu.
+

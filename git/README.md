@@ -78,3 +78,10 @@ Es erscheint so etwas
     Aktueller Branch main ist auf dem neuesten Stand.
 
 
+### Branch erzeugen
+in Planung
+
+### Mergen
+in Planung
+
+### Kein Passwort
