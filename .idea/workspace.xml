@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9fd48ae-c4f5-4357-88ca-047f115eb6fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/composer/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/composer/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer/BestehendWeiterentwickeln.md" beforeDir="false" afterPath="$PROJECT_DIR$/composer/BestehendWeiterentwickeln.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608545910451</updated>
-      <workItem from="1608545911802" duration="2739000" />
+      <workItem from="1608545911802" duration="3511000" />
     </task>
     <task id="LOCAL-00001" summary="Readme erweitert">
       <created>1608546133240</created>
@@ -107,7 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608550280122</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ein bestehendes Projekt weiterentwickeln">
+      <created>1608550500575</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608550500575</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ein bestehendes Projekt weiterentwickeln">
+      <created>1608550630791</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1608550630791</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
