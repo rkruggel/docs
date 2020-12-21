@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9fd48ae-c4f5-4357-88ca-047f115eb6fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer/BestehendWeiterentwickeln.md" beforeDir="false" afterPath="$PROJECT_DIR$/composer/BestehendWeiterentwickeln.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608545910451</updated>
-      <workItem from="1608545911802" duration="5097000" />
+      <workItem from="1608545911802" duration="5789000" />
     </task>
     <task id="LOCAL-00001" summary="Readme erweitert">
       <created>1608546133240</created>
@@ -143,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608553675470</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ein bestehendes Projekt weiterentwickeln">
+      <created>1608554722430</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1608554722430</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ein bestehendes Projekt weiterentwickeln">
+      <created>1608554920367</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608554920367</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
