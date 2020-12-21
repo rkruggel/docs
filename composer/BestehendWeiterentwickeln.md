@@ -9,12 +9,12 @@ Das konkrete Projekt sind hier [laravel-livewire-forms](https://github.com/kdion
 ## Schritt 1
 Von dem original Projekt erstelle ich einen clone. Ich nehme dazu die Konsole.
 
-> git clone https://github.com/kdion4891/laravel-livewire-forms.git
+    git clone https://github.com/kdion4891/laravel-livewire-forms.git
 
 Dieses erzeugt das Directory *laravel-livewire-forms*. Dann lösche ich die Verbindung zum Git repositore von Kdion4891 weil ich ja nicht sein Projekt weiter führen will sonder ein eigenes machen will.
 
-> cd laravel-livewire-forms
-> rm -rf .git
+    cd laravel-livewire-forms
+    rm -rf .git
 
 Jetzt habe ich das rohe Original.
 
@@ -22,7 +22,7 @@ Jetzt habe ich das rohe Original.
 Ein lokales Git Repository erstellen und alle Daten bereit stellen.
 Dieses führe ich alles auf der Konsole aus.
 
-> git init
+    git init
 
 Das Repository ist jetzt da. Um nich allen Blödsinn zu 
 veröffentlichen muss eine *.gitignore* her. 
@@ -46,23 +46,53 @@ veröffentlichen muss eine *.gitignore* her.
 
 Nun alle files dem Repository hinzufügen und committen
 
-> git add *   
-> git commit -m 'Initial commit'
+    git add *   
+    git commit -m 'Initial commit'
 
-sdfgsdgfsd sdf
-
-
-
-
-
-
-
-
-
-
-
-
+Ab jetzt sind schon mal alle Daten save.
 
 ## Schritt 3
-Erste Veröffentlichung auf Github. Ab jetzt sind schon mal alle
-Daten save.
+
+Jetzt wird das original Project zum Laufen gebracht. 
+Herauskommen soll ein Composer-Projekt
+
+**Die Composer.json**
+
+Die composer.json muss angepasst werden. Sie sieht jetzt folgender Massen aus.
+
+    {
+        "name": "rkruggel/livewire-forms",
+        "description": "forms for Livewire",
+        "keywords": ["livewire", "forms", "laravel"],
+        "license": "MIT",
+        "authors": [
+            {
+                "name": "Roland Kruggel",
+                "email": "rkruggel@bbf7.de",
+                "role": "developer"
+            }
+        ],
+        "type": "library",
+        "require": {
+            "php": ">=7.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "6.*"
+        },
+            "autoload": {
+                "psr-4": {
+                "rkruggel\\livewire-forms\\": "src/"
+            }
+        }
+    }
+
+
+
+
+
+
+## Schritt xx
+Erzeugen ein Composer-Projekt
+
+## Schritt xx
+Erste Veröffentlichung auf Github. 
