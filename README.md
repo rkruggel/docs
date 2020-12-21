@@ -2,7 +2,7 @@
 Alles Mögliche aus der Programmierung
 
 ## wie es war...
-...oftmals grausam und aufwendig.
+... oftmals grausam und aufwendig.
 
 Es tauchte ein Problem / Frage auf. Das ist ja im Grunde genommen nichts 
 Ausergewöhnliches. Nun wird Google bemüht und man findet, im schlimmsten 
