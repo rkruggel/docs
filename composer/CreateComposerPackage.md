@@ -13,7 +13,7 @@ Einer der Hauptgründe für alte PHP-Anwendungen ist, dass PHP-Entwickler dazu n
 
 Dieser Beitrag soll dir das Leben als Bibliotheksautor so einfach wie möglich machen, indem er dir zeigt, wie du eine neue Bibliothek mit möglichst wenigen Schritten implementieren kannst.
 
-### Erstelle die Projektordnerstruktur
+## Erstelle die Projektordnerstruktur
 
 Führe folgendes in deiner Konsole aus (Du musst natürlich zuerst Composer installiert haben). Die **Mylibrary** im Befehl ist der Name deiner Bibliothek. Ersetze sie daher durch den tatsächlichen Namen.
 
@@ -33,11 +33,11 @@ Nicht viel, es wird nur eine neue Bibliothek unter dem Ordner *mylibrary* erstel
 
 Dies ist die grundlegende Struktur, mit der du beginnen kannst.
 
-### Passe die generierten Dateien an
+## Passe die generierten Dateien an
 
 Du sehst eine Beispielklasse, die unter **src/YourClass.php** generiert wurde. Du musst dies mit dem tatsächlichen Klassennamen umbenennen. Denke daran, dass du nicht mehrere Klassen in der selben PHP-Datei einfügen sollst. Daher sollte der Klassenname, den du für diese Datei auswählst, auch mit dem Dateinamen übereinstimmen. Wenn du eine weitere Klasse schreiben musst, erstelle eine neue Datei.
 
-#### Namensraum
+### Namensraum
 
 Es wird empfohlen, jede Ihrer Klassen mit einem Namespace zu versehen, damit deine Klassen nicht mit einem anderen Klassennamen kollidieren, wenn sie von einer Anwendung verwendet werden. Normalerweise ist der gute Namespace Ihr GitHub-Benutzername. In meinem Fall ist mein GH-Benutzername beispielsweise ???Buonzz. Daher ist es sinnvoll, einen Namespace wie **???Buonzz\MyLibrary zu haben**
 
@@ -58,7 +58,7 @@ Dann
 
 Die obigen Informationen werden von packagist.org verwendet, um den Namen deines Pakets zu identifizieren, und das zweite Snippet ermöglicht es dem Autoloader, genau zu wissen, in welchem Namespace Ihre Klassen gefunden werden sollen.
 
-#### Passe das Branding an
+### Passe das Branding an
 
 Als Nächstes musst du eine kleine Beschreibung des Verwendungszwecks dieser Bibliothek sowie Schlüsselwörter hinzufügen, um dieses Paket auf packagist.org leicht zu finden. Du gibst auch die Autoreninformationen mit deinem Namen an. Dies alles kann auch in composer.json angepasst werden
 
@@ -72,7 +72,7 @@ Als Nächstes musst du eine kleine Beschreibung des Verwendungszwecks dieser Bib
 
 Danach musst du die enthaltene Datei README.md anpassen. Es handelt sich im Grunde genommen um eine kurze Dokumentation zu dem Zweck, den Anforderungen und der Verwendung dieser Bibliothek. Eine ausführlichere Dokumentation zum Erstellen einer README-Datei findest du [hier](http://www.darwinbiler.com/designing-and-making-the-readme-file-for-your-github-repository/).
 
-#### Schreibe die Testklasse
+### Schreibe die Testklasse
 
 Im Testordner befindet sich eine Anbietertestklasse. Dies wird als "YourClassTest.php" bezeichnet. Der bereitgestellte Code überprüft einfach die entsprechende Klasse, wenn ein Syntaxfehler vorliegt. Denke daran, dass jeder Klasse im Ordner src eine Testklasse zugeordnet sein sollte. Der Name der Testklasse sollte mit der Klasse übereinstimmen, die getestet wird, plus "Test" -String am Ende. Wenn du also eine **src/Utils.php** Klasse haben, benötigst du auch **test/UtilsTest.php**
 
@@ -93,7 +93,7 @@ Es sollte Erfolg haben, und du kannst diesen Entwicklungszyklus fortsetzen, bis 
 
 > Du solltest deine Bibliothek so gestalten, dass sie selbst getestet werden kann, ohne externe Abhängigkeiten (Datenbanken, API, Klassen / Funktionen in einem anderen CMS oder einer anderen Bibliothek) so weit wie möglich zu berücksichtigen.
 
-### Veröffentliche deine Arbeit
+## Veröffentliche deine Arbeit
 
 > Stelle vor dem veröffentlichen deines Pakets sicher, dass du das Feld "Typ" in der Datei composer.json in "Library" geändert hast. Auf diese Weise erkennt packagist.org Ihr Paket als Bibliothek.
 
@@ -137,7 +137,7 @@ Alle Klassen in deiner Bibliothek sind jetzt einsatzbereit.
 
 ---
 
-### Fanden Sie das nützlich?
+## Fandest du das nützlich?
 
 Ich helfe immer gerne! Du kannst deine Unterstützung und Wertschätzung zeigen, indem du [mir einen Kaffee kaufst](https://www.buymeacoffee.com/rkruggel) .
 
