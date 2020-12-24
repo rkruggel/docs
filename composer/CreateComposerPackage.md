@@ -39,7 +39,7 @@ Du siehst eine Beispielklasse, die unter **src/YourClass.php** generiert wurde. 
 
 ### Namensraum
 
-Es wird empfohlen, jede Ihrer Klassen mit einem Namespace zu versehen, damit deine Klassen nicht mit einem anderen Klassennamen kollidieren, wenn sie von einer Anwendung verwendet werden. Normalerweise ist der gute Namespace Ihr GitHub-Benutzername. In meinem Fall ist mein GH-Benutzername beispielsweise ???Buonzz. Daher ist es sinnvoll, einen Namespace wie **???Buonzz\MyLibrary zu haben**
+Es wird empfohlen, jede Ihrer Klassen mit einem Namespace zu versehen, damit deine Klassen nicht mit einem anderen Klassennamen kollidieren, wenn sie von einer Anwendung verwendet werden. Normalerweise ist der gute Namespace Ihr GitHub-Benutzername. In meinem Fall ist mein GH-Benutzername beispielsweise ???Buonzz. Daher ist es sinnvoll, einen Namespace wie **???Buonzz\MyLibrary zu haben**.
 
 Im Allgemeinen sollte jede Klasse, die du **erstellst**, unter der Syntax **VendorName\PackageName** leben. Dies sollte die erste Zeile jeder Klasse in Ihrer Bibliothek sein.
 
