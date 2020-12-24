@@ -35,7 +35,7 @@ Dies ist die grundlegende Struktur, mit der du beginnen kannst.
 
 ## Passe die generierten Dateien an
 
-Du sehst eine Beispielklasse, die unter **src/YourClass.php** generiert wurde. Du musst dies mit dem tatsächlichen Klassennamen umbenennen. Denke daran, dass du nicht mehrere Klassen in der selben PHP-Datei einfügen sollst. Daher sollte der Klassenname, den du für diese Datei auswählst, auch mit dem Dateinamen übereinstimmen. Wenn du eine weitere Klasse schreiben musst, erstelle eine neue Datei.
+Du siehst eine Beispielklasse, die unter **src/YourClass.php** generiert wurde. Du musst dies mit dem tatsächlichen Klassennamen umbenennen. Denke daran, dass du nicht mehrere Klassen in der selben PHP-Datei einfügen sollst. Daher sollte der Klassenname, den du für diese Datei auswählst, auch mit dem Dateinamen übereinstimmen. Wenn du eine weitere Klasse schreiben musst, erstelle eine neue Datei.
 
 ### Namensraum
 
@@ -62,8 +62,9 @@ Die obigen Informationen werden von packagist.org verwendet, um den Namen deines
 
 Als Nächstes musst du eine kleine Beschreibung des Verwendungszwecks dieser Bibliothek sowie Schlüsselwörter hinzufügen, um dieses Paket auf packagist.org leicht zu finden. Du gibst auch die Autoreninformationen mit deinem Namen an. Dies alles kann auch in composer.json angepasst werden
 
-    "description": "this is my very own php package.",    "keywords": ["mypackage", "composer", "package"], 
-    "license": "DBAD", 
+    "description": "this is my very own php package.",
+    "keywords": ["mypackage", "composer", "package"],
+    "license": "DBAD",
     "authors": [ { "name": "Your Name", "email": "your email" } ]
 
 Überprüfe anschließend deine Datei composer.json, um sicherzustellen, dass du beim Ausführen der Anpassungen keinen Tippfehler gemacht hast.
